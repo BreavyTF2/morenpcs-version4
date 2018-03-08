@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture"		"models\hl2_beta\bullsquid\bullsquidteeth"
+	"$alphatest"		"1"
+}

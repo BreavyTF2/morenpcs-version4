@@ -1,0 +1,5 @@
+"Sprite"
+{
+	"$basetexture" "vgui/entities/cycler_actor"
+	"$nocull" 1
+}

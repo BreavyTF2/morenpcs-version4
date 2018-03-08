@@ -1,0 +1,5 @@
+"Sprite"
+{
+	"$basetexture" "vgui/entities/npc_grenade_bugbait"
+	"$nocull" 1
+}

@@ -1,0 +1,5 @@
+"Sprite"
+{
+	"$basetexture" "vgui/entities/monster_generic"
+	"$nocull" 1
+}
