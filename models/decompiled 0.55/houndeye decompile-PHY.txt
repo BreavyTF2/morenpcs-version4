@@ -1,0 +1,52 @@
+// Created by Crowbar 0.55
+====== File Size ======
+	18,935
+====== File Seek Log ======
+--- Summary ---
+	0 - 1,583
+	1,612 - 2,891
+	2,920 - 3,719
+	3,748 - 4,547
+	4,576 - 6,911
+	6,940 - 8,507
+	8,536 - 9,239
+	9,268 - 10,835
+	10,864 - 11,615
+	11,644 - 12,347
+	12,376 - 13,079
+	13,108 - 13,811
+	13,840 - 18,933
+	18,935 - 18,935
+------------------------
+--- Each Section or Loop ---
+	0 - 15 Header
+	16 - 1,583 Solid(0)
+	1,584 - 1,611 [ERROR] Unread bytes [ 00 00 00 00 30 FA FF FF BC 9E 25 3E 00 00 00 B3 E8 C2 88 3D CA ... ]
+	1,612 - 2,891 Solid(1)
+	2,892 - 2,919 [ERROR] Unread bytes [ 00 00 00 00 50 FB FF FF A2 D3 1D 3E 00 00 20 33 C6 CE 88 3C 68 ... ]
+	2,920 - 3,719 Solid(2)
+	3,720 - 3,747 [ERROR] Unread bytes [ 00 00 00 00 30 FD FF FF CF 53 06 3E 00 00 0D B4 14 50 F3 BB C0 ... ]
+	3,748 - 4,547 Solid(3)
+	4,548 - 4,575 [ERROR] Unread bytes [ 00 00 00 00 30 FD FF FF 1C E9 7F 3D 00 00 F1 B5 B0 4F 90 3A 78 ... ]
+	4,576 - 6,911 Solid(4)
+	6,912 - 6,939 [ERROR] Unread bytes [ 00 00 00 00 30 F7 FF FF 04 B4 B1 3E 00 00 16 B5 AB B9 05 3E FF ... ]
+	6,940 - 8,507 Solid(5)
+	8,508 - 8,535 [ERROR] Unread bytes [ 00 00 00 00 30 FA FF FF A8 E6 1F BE FC 11 01 BC 90 98 CE 3B E0 ... ]
+	8,536 - 9,239 Solid(6)
+	9,240 - 9,267 [ERROR] Unread bytes [ 00 00 00 00 90 FD FF FF 9B 78 01 BE 50 C8 BD BA 28 A6 99 3A 17 ... ]
+	9,268 - 10,835 Solid(7)
+	10,836 - 10,863 [ERROR] Unread bytes [ 00 00 00 00 30 FA FF FF C3 06 20 3E E0 3E 4A 3C 90 3F D7 BB D4 ... ]
+	10,864 - 11,615 Solid(8)
+	11,616 - 11,643 [ERROR] Unread bytes [ 00 00 00 00 60 FD FF FF BD DE 01 3E A0 9C C1 3B C8 D0 A3 BA 41 ... ]
+	11,644 - 12,347 Solid(9)
+	12,348 - 12,375 [ERROR] Unread bytes [ 00 00 00 00 90 FD FF FF 36 30 73 3D B4 C8 A0 3B 86 30 31 BC 1C ... ]
+	12,376 - 13,079 Solid(10)
+	13,080 - 13,107 [ERROR] Unread bytes [ 00 00 00 00 90 FD FF FF 40 39 73 BD 40 A1 E5 B9 09 16 36 3C 19 ... ]
+	13,108 - 13,811 Solid(11)
+	13,812 - 13,839 [ERROR] Unread bytes [ 00 00 00 00 90 FD FF FF 6B 15 81 3D 40 7B 28 3B 47 D4 24 BC 77 ... ]
+	13,840 - 16,302 Properties
+	16,303 - 18,867 Ragdoll constraints
+	18,868 - 18,933 Edit params
+	18,934 - 18,934 [ERROR] Unread bytes (all zeroes) [ 00 ]
+	18,935 - 18,935 END OF FILE + 1 (File size)
+========================

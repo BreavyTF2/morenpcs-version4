@@ -68,7 +68,7 @@ Category = Category
 AddNPC( {
 Name = "Beta Houndeye", 
 Class = "monster_houndeye", 
-Model = "models/houndeye.mdl", 
+Model = "models/hl2leakhoundeye.mdl", 
 Health = "225",  
 Category = Category
 } )
