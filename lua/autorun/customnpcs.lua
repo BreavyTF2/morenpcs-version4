@@ -12,11 +12,11 @@ list.Set( "NPC", "npc_loader", NPC )
 
 
 
-local Category = "Zombies + Alien Enemies" 
+local Category = "Zombies + Enemy Aliens" 
 
-local NPC = { Name = "Unused Bullsquid", 
-Class = "npc_ichthyosaur", 
-Model = "models/cutnpcs/bullsquid.mdl", 
+local NPC = { Name = "Bullsquid Green", 
+Class = "monster_generic", 
+Model = "models/bullsquid.mdl", 
 Health = "450",  
 Category = Category	} 
 list.Set( "NPC", "npc_aqua_bullsquid", NPC ) 
