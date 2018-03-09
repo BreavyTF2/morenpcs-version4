@@ -1,0 +1,70 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\houndeye\houndeye_sheet"
+//	"$phong"	"1"
+//	"$phongexponent"  "35"
+//	"$phongfresnelranges"   "[1 3 6]"
+//	"$halflambert" "0"
+//	"$phongboost"	"0.025"
+
+//	"$phongboost"   "0.05"
+//	"$phongfresnelranges" "[.4 0.8 1]"
+	
+	"$selfillum"	"1"
+	"$selfillumtint"	"[3 0.3 0]"
+//	"$selfillummask"	"models\houndeye\houndeye_mask"
+//	"$selfIllumFresnel" "[1 0.5 0]"
+	"$bumpmap" "models\houndeye\houndeye_normal"
+//	"$bumptransform"	"center .5 .5 scale 2 2 rotate 0 translate 0 0"
+	"$random"	"0"
+	"$random2"	"0"
+	"$random3"	"0"
+	"$number"	"0"
+	"Proxies"
+	{
+    
+        "EntityRandom"
+        {
+            "scale" "24"
+            "resultVar" "$random"
+        }        
+		"EntityRandom"
+        {
+            "scale" "24"
+            "resultVar" "$random2"
+        }        
+		"EntityRandom"
+        {
+            "scale" "24"
+            "resultVar" "$random3"
+        }
+		"Sine" 
+		{
+			"resultVar"	"$selfillumtint[0]"
+			"sineperiod"	"1"
+			"timeoffset" "$random"
+			"sinemin"		"8"
+			"sinemax"	"24"
+    
+		}
+		"Sine" 
+		{
+			"resultVar"	"$selfillumtint[2]"
+			"sineperiod"	"1.5"
+			"timeoffset" "$random2"
+			"sinemin"		"0"
+			"sinemax"	"0.1"
+		}
+		"Sine" 
+		{
+			"resultVar"	"$selfillumtint[1]"
+			"sineperiod"	"2"
+			"timeoffset" "$random3"
+			"sinemin"		"0.5" //0.4
+			"sinemax"	"1.6" //1.6
+		}
+    
+	}
+	
+	"$model" 1
+}

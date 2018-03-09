@@ -9,14 +9,3 @@ Health = "1500",
 Category = Category	} 
 
 list.Set( "NPC", "npc_loader", NPC ) 
-
-
-
-local Category = "Zombies + Enemy Aliens" 
-
-local NPC = { Name = "Bullsquid Green", 
-Class = "monster_generic", 
-Model = "models/bullsquid.mdl", 
-Health = "450",  
-Category = Category	} 
-list.Set( "NPC", "npc_aqua_bullsquid", NPC ) 

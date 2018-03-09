@@ -57,7 +57,6 @@ AddNPC( {
 end
 
 local Category = "Zombies + Enemy Aliens" 
-
 AddNPC( {
 Name = "Ichthyosaur", 
 Class = "npc_ichthyosaur", 
@@ -65,6 +64,15 @@ Model = "models/ichthyosaur.mdl",
 Health = "600",  
 Category = Category
 } )
+
+AddNPC( {
+Name = "Beta Houndeye", 
+Class = "monster_houndeye", 
+Model = "models/houndeye.mdl", 
+Health = "225",  
+Category = Category
+} )
+
 
 local Category = "Other" 
 
